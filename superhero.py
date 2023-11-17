@@ -90,6 +90,13 @@ class Hero:
             return False 
         else:
             return True
+    
+    def add_kill(self, num_kills):
+        self.kills += num_kills
+
+    def add_deaths(self, num_deths):
+        self.deaths += num_deths
+        pass
 
 
 if __name__ == "__main__":
